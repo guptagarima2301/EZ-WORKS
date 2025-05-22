@@ -14,7 +14,7 @@ This is a document management backend using FastAPI and MongoDB Atlas.
 ### Setup
 
 1. Create a `.env` file:
-   ## MONGODB URI: mongodb+srv://guptagarima2301:1trEHvusSeuXIBBx@cluster0.ewm36m4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    MONGODB URI: "your-own-key"
 
 2. Install dependencies:
 
