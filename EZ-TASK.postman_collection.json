@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "43657970-60a0-41d8-b1f3-82b79e44610b",
+		"name": "EZ-TASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33030009",
+		"_collection_link": "https://ez3333-1193.postman.co/workspace/72f56de6-2118-4b02-9089-3bff4acf3a4b/collection/33030009-43657970-60a0-41d8-b1f3-82b79e44610b?action=share&source=collection_link&creator=33030009"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Client User\",\r\n  \"email\": \"clientuser@gmail.com\",\r\n  \"password\": \"client123\",\r\n  \"role\": \"client\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/client/signup",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"client",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/client/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudHVzZXIyQGdtYWlsLmNvbSIsInJvbGUiOiJjbGllbnQiLCJleHAiOjE3NDc5OTY0NTV9.9W0m181-j3iTKt05tmZ2kEPCIzmP-FXuniGzRT8LCYg\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/client/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudHVzZXIyQGdtYWlsLmNvbSIsInJvbGUiOiJjbGllbnQiLCJleHAiOjE3NDc5OTY0NTV9.9W0m181-j3iTKt05tmZ2kEPCIzmP-FXuniGzRT8LCYg\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"client",
+						"verify",
+						"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudHVzZXIyQGdtYWlsLmNvbSIsInJvbGUiOiJjbGllbnQiLCJleHAiOjE3NDc5OTY0NTV9.9W0m181-j3iTKt05tmZ2kEPCIzmP-FXuniGzRT8LCYg\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/client/login\n",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"clientuser2@gmail.com\",\r\n  \"password\": \"client1234\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/client/login\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"client",
+						"login\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/client/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"ops User2\",\r\n  \"email\": \"opsuser2@gmail.com\",\r\n  \"password\": \"ops1234\",\r\n  \"role\": \"ops\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/client/signup",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"client",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/ops/login\n",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \r\n  \"email\": \"opsuser2@gmail.com\",\r\n  \"password\": \"ops1234\"\r\n  \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/ops/login\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"ops",
+						"login\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/upload\n",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9wc3VzZXIyQGdtYWlsLmNvbSIsInJvbGUiOiJvcHMiLCJleHAiOjE3NDc5MTY5NDR9.HcjgdK6qybEWhq49bMXNynfBOWdZ-CQmlT4oO-rZIVs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "Pwr-otopE/Team Details  Admin Panel  Reskilll.xlsx"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/upload\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"upload\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/download-file/682f109dca1b796bc25c8156\n",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudHVzZXIyQGdtYWlsLmNvbSIsInJvbGUiOiJjbGllbnQiLCJleHAiOjE3NDc5MTQ2MDN9.rhG-GiGhJ2aEZ1h4bhw0iv_3sT6MiL8Gu1cMYIXc42I",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/download-file/682f109dca1b796bc25c8156\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"download-file",
+						"682f109dca1b796bc25c8156\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
