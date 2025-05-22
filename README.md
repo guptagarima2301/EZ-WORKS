@@ -18,7 +18,7 @@ This is a document management backend using FastAPI and MongoDB Atlas.
 ![Screenshot 2025-05-22 180957](https://github.com/user-attachments/assets/fe8615b9-c560-47cd-b5a0-d6ec55a7f137)
 
 ![Screenshot 2025-05-22 180943](https://github.com/user-attachments/assets/8729ea90-3cee-4715-8efe-d3e0e860f7f7)
-![Screenshot 2025-05-22 170815](https://github.com/user-attachments/assets/f3e19a76-3dd8-4f34-8b81-46eb5e7cb037)
+
 
 ![image](https://github.com/user-attachments/assets/126fe313-c9a1-4165-b3e1-b3e17f0fe30f)
 
