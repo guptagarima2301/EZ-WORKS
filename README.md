@@ -34,9 +34,3 @@ run server:
 uvicorn app.main:app --reload
 
 
-
-
-
-![Screenshot 2025-05-22 180957](https://github.com/user-attachments/assets/91456740-8c50-4cc9-8a4d-ea0856d5d000)
-
-![Screenshot 2025-05-22 181018](https://github.com/user-attachments/assets/32f77586-78a2-46ef-a09a-3703569d60fc)
